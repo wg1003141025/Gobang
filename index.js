@@ -24,7 +24,7 @@ $(function () {
             $(this).addClass('hei');
             hei[data.x+"_"+data.y]=true;
             if(isSuccess(data,hei)>=5){
-                console.log('hei');
+                alert('黑棋胜');
                 qipan.off();
             }
             if(ai){
@@ -34,7 +34,7 @@ $(function () {
                 bai[pos.x+'_'+pos.y] = true;
                 delete blank[pos.x+'_'+pos.y];
                 if(isSuccess(pos,bai) >= 5){
-                    console.log('bai');
+                    alert('白棋胜');
                     qipan.off();
                 }
                 return;
@@ -43,7 +43,7 @@ $(function () {
             $(this).addClass('bai');
             bai[data.x+"_"+data.y]=true;
             if(isSuccess(data,bai)>=5){
-                console.log('bai');
+                alert('白棋胜');
                 qipan.off();
             }
         }
