@@ -25,6 +25,7 @@ $(function () {
             hei[data.x+"_"+data.y]=true;
             if(isSuccess(data,hei)>=5){
                 alert('黑棋胜');
+                // console.log('hei');
                 qipan.off();
             }
             if(ai){
@@ -35,6 +36,7 @@ $(function () {
                 delete blank[pos.x+'_'+pos.y];
                 if(isSuccess(pos,bai) >= 5){
                     alert('白棋胜');
+                    // console.log('bai');
                     qipan.off();
                 }
                 return;
@@ -44,6 +46,7 @@ $(function () {
             bai[data.x+"_"+data.y]=true;
             if(isSuccess(data,bai)>=5){
                 alert('白棋胜');
+                // console.log('bai');
                 qipan.off();
             }
         }
