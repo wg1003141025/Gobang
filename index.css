@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  overflow: hidden;
+  background: url("img/bigbg.jpg") center/cover; }
+
+.qipan {
+  width: 600px;
+  height: 600px;
+  background: url("img/timg.jpg") center/cover;
+  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0); }
+  .qipan .qizi {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: relative;
+    z-index: 99;
+    border-radius: 50%; }
+  .qipan .hei {
+    background-color: #000; }
+  .qipan .bai {
+    background-color: #fff; }
+  .qipan i {
+    width: 560px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 20px;
+    transform: translate3d(0, -1000px, 0); }
+  .qipan b {
+    height: 560px;
+    width: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 20px;
+    transform: translate3d(-1000px, 0, 0); }
+  .qipan div.pointer {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    z-index: 99;
+    transform: translate3d(-50%, -50%, 0); }
+  .qipan .pointer:nth-of-type(1) {
+    top: 140px;
+    left: 140px;
+    transform: translate3d(-50%, -50%, 0); }
+  .qipan .pointer:nth-of-type(2) {
+    top: 140px;
+    left: 460px;
+    transform: translate3d(-50%, -50%, 0); }
+  .qipan .pointer:nth-of-type(3) {
+    top: 300px;
+    left: 300px;
+    transform: translate3d(-50%, -50%, 0); }
+  .qipan .pointer:nth-of-type(4) {
+    top: 460px;
+    left: 140px;
+    transform: translate3d(-50%, -50%, 0); }
+  .qipan .pointer:nth-of-type(5) {
+    top: 460px;
+    left: 460px;
+    transform: translate3d(-50%, -50%, 0); }
+  .qipan i:nth-of-type(1) {
+    top: 20px;
+    animation: diaoluo 0.5s ease 100ms forwards; }
+  .qipan b:nth-of-type(1) {
+    left: 20px;
+    animation: fly 0.5s ease 100ms forwards; }
+  .qipan i:nth-of-type(2) {
+    top: 60px;
+    animation: diaoluo 0.5s ease 200ms forwards; }
+  .qipan b:nth-of-type(2) {
+    left: 60px;
+    animation: fly 0.5s ease 200ms forwards; }
+  .qipan i:nth-of-type(3) {
+    top: 100px;
+    animation: diaoluo 0.5s ease 300ms forwards; }
+  .qipan b:nth-of-type(3) {
+    left: 100px;
+    animation: fly 0.5s ease 300ms forwards; }
+  .qipan i:nth-of-type(4) {
+    top: 140px;
+    animation: diaoluo 0.5s ease 400ms forwards; }
+  .qipan b:nth-of-type(4) {
+    left: 140px;
+    animation: fly 0.5s ease 400ms forwards; }
+  .qipan i:nth-of-type(5) {
+    top: 180px;
+    animation: diaoluo 0.5s ease 500ms forwards; }
+  .qipan b:nth-of-type(5) {
+    left: 180px;
+    animation: fly 0.5s ease 500ms forwards; }
+  .qipan i:nth-of-type(6) {
+    top: 220px;
+    animation: diaoluo 0.5s ease 600ms forwards; }
+  .qipan b:nth-of-type(6) {
+    left: 220px;
+    animation: fly 0.5s ease 600ms forwards; }
+  .qipan i:nth-of-type(7) {
+    top: 260px;
+    animation: diaoluo 0.5s ease 700ms forwards; }
+  .qipan b:nth-of-type(7) {
+    left: 260px;
+    animation: fly 0.5s ease 700ms forwards; }
+  .qipan i:nth-of-type(8) {
+    top: 300px;
+    animation: diaoluo 0.5s ease 800ms forwards; }
+  .qipan b:nth-of-type(8) {
+    left: 300px;
+    animation: fly 0.5s ease 800ms forwards; }
+  .qipan i:nth-of-type(9) {
+    top: 340px;
+    animation: diaoluo 0.5s ease 900ms forwards; }
+  .qipan b:nth-of-type(9) {
+    left: 340px;
+    animation: fly 0.5s ease 900ms forwards; }
+  .qipan i:nth-of-type(10) {
+    top: 380px;
+    animation: diaoluo 0.5s ease 1000ms forwards; }
+  .qipan b:nth-of-type(10) {
+    left: 380px;
+    animation: fly 0.5s ease 1000ms forwards; }
+  .qipan i:nth-of-type(11) {
+    top: 420px;
+    animation: diaoluo 0.5s ease 1100ms forwards; }
+  .qipan b:nth-of-type(11) {
+    left: 420px;
+    animation: fly 0.5s ease 1100ms forwards; }
+  .qipan i:nth-of-type(12) {
+    top: 460px;
+    animation: diaoluo 0.5s ease 1200ms forwards; }
+  .qipan b:nth-of-type(12) {
+    left: 460px;
+    animation: fly 0.5s ease 1200ms forwards; }
+  .qipan i:nth-of-type(13) {
+    top: 500px;
+    animation: diaoluo 0.5s ease 1300ms forwards; }
+  .qipan b:nth-of-type(13) {
+    left: 500px;
+    animation: fly 0.5s ease 1300ms forwards; }
+  .qipan i:nth-of-type(14) {
+    top: 540px;
+    animation: diaoluo 0.5s ease 1400ms forwards; }
+  .qipan b:nth-of-type(14) {
+    left: 540px;
+    animation: fly 0.5s ease 1400ms forwards; }
+  .qipan i:nth-of-type(15) {
+    top: 580px;
+    animation: diaoluo 0.5s ease 1500ms forwards; }
+  .qipan b:nth-of-type(15) {
+    left: 580px;
+    animation: fly 0.5s ease 1500ms forwards; }
+@keyframes dian {
+  from {
+    transform: translate3d(0, -1000px, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }
+@keyframes diaoluo {
+  0% {
+    transform: translate3d(0, -1000px, 0); }
+  100% {
+    transform: translate3d(0, 0, 0); } }
+@keyframes fly {
+  0% {
+    transform: translate3d(-1000px, 0, 0); }
+  100% {
+    transform: translate3d(0, 0, 0); } }
+
+/*# sourceMappingURL=index.css.map */
