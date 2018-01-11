@@ -56,7 +56,8 @@ body {
     background-color: #000;
     position: absolute;
     z-index: 99;
-    transform: translate3d(-50%, -50%, 0); }
+    transform: translate3d(-50%, -50%, 0);
+    animation: dian .5s ease 100ms forwards; }
   .qipan .pointer:nth-of-type(1) {
     top: 140px;
     left: 140px;
@@ -168,10 +169,10 @@ body {
     left: 580px;
     animation: fly 0.5s ease 1500ms forwards; }
 @keyframes dian {
-  from {
+  0% {
     transform: translate3d(0, -1000px, 0); }
-  to {
-    transform: translate3d(0, 0, 0); } }
+  100% {
+    transform: translate3d(-50%, -50%, 0); } }
 @keyframes diaoluo {
   0% {
     transform: translate3d(0, -1000px, 0); }
